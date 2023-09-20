@@ -7,7 +7,7 @@ body {
     margin-bottom: 20px;
 }
 
-.col-3 {
+.col-12 {
     color: #f2ab35;
 }
 
@@ -29,10 +29,12 @@ h1 {
     border-radius: 50%; 
     overflow: hidden; 
     margin-left: 20px;
+    
 }
 
 
 .circular-image img {
+    
     width: 70%;
     height: 70%;
     object-fit: cover; 
@@ -46,10 +48,18 @@ h1 {
     opacity: 0.7;
 }
 .logo-image img {
-    width: 80%;
-    height: 90%;
+    width: 40%;
+    height:55%;
     margin-left: 20px;
 
+}
+@media (max-width: 430px) {
+    .logo-image img {
+        width: 100%; /* Adjust the width as needed for mobile */
+        height: 100%; /* Maintain aspect ratio */
+        margin-left: 10px; /* Adjust the margin as needed for mobile */
+    }
+    
 }
 
 .make-indent{
@@ -57,13 +67,10 @@ h1 {
 }
 
 .devops {
-    position: relative;
-    margin-top: 60px;
+    padding-top: 30px;
 }
-.frontend {
-    position: relative;
-
-    margin-top: 50px;
+.backend {
+    padding-top: 25px;
 }
 
 .logo {
