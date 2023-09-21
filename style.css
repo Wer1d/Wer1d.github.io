@@ -7,6 +7,14 @@ body {
     margin-bottom: 20px;
 }
 
+/* .academic-year {
+    margin-left: 70%;
+} */
+
+a {
+    color : greenyellow;
+    text-decoration: underline;
+}
 h3 {
     color: #f2ab35;
 }
